@@ -1,0 +1,16 @@
+#images-container {
+    display: flex;
+    /* Makes images display on multiple lines instead of just one */
+    flex-wrap: wrap;
+    /* 4px gutter in horizontal and vertical directions */
+    column-gap: 4px;
+    row-gap: 4px;
+
+    /* 4% padding from left-right edge */
+    padding: 0% 4%;
+}
+
+.image {
+    /* Image height fixed to 150px */
+    height: 150px;
+}
