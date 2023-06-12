@@ -6,6 +6,9 @@
     column-gap: 4px;
     row-gap: 4px;
 
+    /* justify-content align images on left-right edges but column-gap is ignored */
+    justify-content: space-between;
+
     /* 4% padding from left-right edge */
     padding: 0% 4%;
 }

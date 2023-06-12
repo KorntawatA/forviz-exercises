@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap');
+        </style>
+    </head>
+    <body>
+        <div id="page-container">
+            <div id="left-section-container">
+                <div id="room-number-container">
+                    <p id="room-number"></p>
+                </div>
+                <div id="room-info-container">
+                    <!-- Assume that this section only shows today's activities that have not happened yet -->
+                    <p id="upcoming">Upcoming</p>
+                    <div id="weekday-date-container">
+                        <p id="weekday"></p>
+                        <p id="date"></p>
+                    </div>
+                </div>
+                <div id="other-activities-container">
+                </div>
+            </div>
+            <div id="right-section-container">
+                <div id="schedule-timing">
+                    <p id="thisweek">THIS WEEK</p>
+                    <p id="nextweek">NEXT WEEK</p>
+                    <p id="wholemonth">WHOLE MONTH</p>
+                </div>
+                <div id="schedule-container">
+                    <!-- Date and activities during it will be shown here -->
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
